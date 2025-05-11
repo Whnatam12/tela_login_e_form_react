@@ -1,0 +1,26 @@
+.new-user-container{
+    padding: 2rem;
+    background-color: #fff;
+  
+    box-shadow: rgb(47, 47, 61) 0px 7px 29px 0px;
+    max-width: 500px;
+margin: 50px auto;
+border-top-left-radius:50rem;
+
+
+
+
+}
+
+.inputs-container{
+margin-top: 1rem;
+display: flex;
+flex-direction: column;
+
+
+
+}
+h1 {
+    margin-right: 9px;
+margin-bottom: 3rem;
+}
