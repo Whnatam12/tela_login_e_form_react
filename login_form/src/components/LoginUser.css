@@ -114,12 +114,12 @@ color: rgb(17, 14, 14);
 }
 .new-account:hover {
     opacity: 1;
-   background: rgb(12, 11, 11);
+ 
 
 }
 .new-account span:hover {
     opacity: 1;
- color:rgb(80, 102, 110) ;
+color: #fff;
 
 
 }
