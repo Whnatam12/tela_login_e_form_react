@@ -20,7 +20,14 @@ flex-direction: column;
 
 
 }
-h1 {
+.header h1 {
+    position: relative;
+    bottom: 3rem;
     margin-right: 9px;
-margin-bottom: 3rem;
+margin-bottom: 1.5rem;
+}
+.recovery-password a{
+
+
+background-color: #fff;
 }
