@@ -1,33 +1,26 @@
-.new-user-container{
-    padding: 2rem;
-    background-color: #fff;
-  
-    box-shadow: rgb(47, 47, 61) 0px 7px 29px 0px;
-    max-width: 500px;
-margin: 50px auto;
-border-top-left-radius:50rem;
+.login-user{
+    box-shadow: rgb(24, 24, 29) 0px 7px 29px 0px;
+    width: 245px;
+    height: 40px;
+ border-radius: 10px;
 
-
-
-
-}
-
-.inputs-container{
-margin-top: 1rem;
-display: flex;
-flex-direction: column;
-
-
-
-}
-.header h1 {
-    position: relative;
-    bottom: 3rem;
-    margin-right: 9px;
-margin-bottom: 1.5rem;
-}
-.recovery-password a{
+text-align: center;
 
 
 background-color: #fff;
+opacity: .5;
+transition: .7s;
+
+
+
+}
+.login-user span {
+    font-weight: bold;
+    position: relative;
+    top: .6rem;
+    color: blue;
+}
+
+.login-user:hover {
+    opacity: 1;
 }
