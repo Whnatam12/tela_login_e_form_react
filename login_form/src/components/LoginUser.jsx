@@ -59,21 +59,27 @@ const handlesubmit = (e) => {
          onChange={handlpassword}
          />
       </label> 
+ 
+
+     
 
 
       <input className='btn' type="submit"value="Entrar" />
-
+    
 </div>
 
 </form>
-<div className="google">
+
+
+
+<div id='google'>
 <a href="#"> <img src="/google.png" alt="" /><span >Continuar com o google</span></a>
 </div>
 <div className="recovery-password">
 <a  href="#"><span>Esqueceu sua senha?</span></a>
+
 </div>
-  
-      <div className="new-account">
+  <div id='new-account'>
       <a href="http://localhost:5173/newuser"><span>CRIAR UMA CONTA NOVA</span></a>
       </div>
 </div>
