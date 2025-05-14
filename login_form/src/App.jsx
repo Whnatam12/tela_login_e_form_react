@@ -9,16 +9,25 @@ function App() {
 <div className="app">
 
   <div className="container">
-  <div className="header">
 
-  </div>
   <div className="form-container">
+  
+  
+  <label id='checkbox' >
+   
+<input type="checkbox"
+     name="checkbox" />
+      <span>lembrar senha</span>
+    </label>
 
-    <div className="form-login">
+    
     <LoginUser/>
-    </div>
+   
+   
   </div>
   </div>
+ 
+
 </div>
 
   )
