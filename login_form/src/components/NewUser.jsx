@@ -20,11 +20,14 @@ console.log(name,email,password,setComfirmPassword);
 
 
   return (
-    <div>
-      <div className="container">
+  
+    <div className="app">
+  
+  <div className="container"> 
 
      
-<div className="new-user-container">
+{/* <div className="new-user-container"> */}
+<div className="form-container">
 <div className="header">
 <h1>Preencha todos os campos</h1>
 </div>
@@ -51,11 +54,17 @@ console.log(name,email,password,setComfirmPassword);
     <p>Confirme sua senha</p>
     <input type="password" placeholder='Confirme sua senha'onChange={(e) => setComfirmPassword(e.target.value)}  />
   </label>
-  <input className='btn' type="submit"value='Enviar'  />
+
+
+
+
+  <input className='btn'  type="submit"value='Enviar'  />
+
   </div>
 </form>
-
-<a href="http://localhost:5173/">Ja possiu uma conta?</a>
+<div className="login-user">
+<a href="http://localhost:5173/"><span>Já possiu uma conta?</span></a>
+</div>
   </div>
 </div>
 
