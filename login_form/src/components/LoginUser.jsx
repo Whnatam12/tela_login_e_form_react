@@ -22,14 +22,20 @@ const handlpassword = (e) =>{
 }
 const handlesubmit = (e) => {
   e.preventDefault();
-  console.log(email,password);
-};
 
+
+  
+console.log(email,password)
+}
 
   return (
-    <div className='login-container'>
+    
+ <div className='login-container'>
+
+
+
   <h1>Digite seu email e senha</h1>
-        <div className="inputs-container">
+  <div className="inputs-container">
 {/* <h1>Entrar</h1> */}
 <form  onSubmit={handlesubmit}>
 
@@ -58,18 +64,27 @@ const handlesubmit = (e) => {
          required
          onChange={handlpassword}
          />
-      </label> 
- 
 
+
+
+      </label> 
+      <label   id='checkbox' >  
+     
+   
+     <input type="checkbox"
+          name="checkbox" />
+           <span>lembrar senha</span>
+         </label>
+  
      
 
 
       <input className='btn' type="submit"value="Entrar" />
     
-</div>
+    
+      </div>
 
 </form>
-
 
 
 <div id='google'>
@@ -82,9 +97,9 @@ const handlesubmit = (e) => {
   <div id='new-account'>
       <a href="http://localhost:5173/newuser"><span>CRIAR UMA CONTA NOVA</span></a>
       </div>
-</div>
 
 
+      </div>
     </div>
   )
 }
