@@ -22,15 +22,27 @@ p{
   font-weight: bold;
 text-align: justify;
 font-size: 20px;
+color: black;
+}
+
+
+.login-container{
+
+  display: flex;
+  flex-direction: column;
+
 }
 
 .inputs-container {
+
   display: flex;
   flex-direction: column;
 
   gap: 1rem;
-align-items:center;
-margin-left: 2rem;
+  align-items: center;
+  margin-left: 2.5rem;
+
+
 
 
  
@@ -43,14 +55,15 @@ margin-left: 2rem;
   height: 40px;
   width: 300px;
   border: none;
-  border-bottom: 1px solid black;
-  margin-bottom: 2rem;
-margin-left: auto;
+  
+margin: 1rem auto;
 
   box-shadow: rgb(196, 196, 221) 0px 7px 29px 0px;
   border-radius: 5px;
   border: none;
   border-bottom: 1px solid black;
+
+  
 }
 
 .form-container{
@@ -62,44 +75,45 @@ height: 652px;
   border-top-left-radius:25rem;
 
 }
-#btn{
 
-border: 10px solid black;
-
-
+.inputs-container .btn{
+ 
+margin-top: .5rem;
+margin-left: 6rem;
 }
 
 .btn {
   
   background-color: blue;
   font-weight: bold;
-  color: #fff;
+color: #fff;
+opacity: .7;
 
-  opacity: .7;
-transition: .5s;
 cursor: pointer;
 border-radius: 5px;
 border: none;
-margin-top: 3rem;
 
 max-width: 100px;
 max-height:50px ;
 
-position: relative;
-right: 6rem;
-
+transition: .8s;
+opacity: .7;
 }
+
+
+
 .btn:hover {
   opacity: 1;
 }
-#checkbox{
+#checkbox {
 
-  position: relative;
-  top: 240px;
-  left: 90px;
-  display: flex;
-  flex-direction: row;
-  gap: .5rem;
+display: flex;
+
+padding: 0;
+
+position: relative;
+bottom: 1.5rem;
+
  
   
 
@@ -107,15 +121,25 @@ right: 6rem;
 #checkbox input {
   height: 15px;
   width: 15px;
+  display: flex;
+
+margin-left: .1rem;
+margin-top: 1rem;
+
 }
 #checkbox span {
   font-weight: bold;
 font-size: 16px;
   text-transform: uppercase;
+margin-right: 0;
+position: relative;
+right: 2.5rem;
+margin-top: 1rem;
 
 
 }
-.inputs-container input ,#checkbox ,#google  {
+.inputs-container input ,#google  {
   margin-right: 3rem;
 
 }
+
