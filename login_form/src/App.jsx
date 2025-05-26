@@ -13,12 +13,7 @@ function App() {
   <div className="form-container">
   
   
-  <label id='checkbox' >
-   
-<input type="checkbox"
-     name="checkbox" />
-      <span>lembrar senha</span>
-    </label>
+
 
     
     <LoginUser/>
