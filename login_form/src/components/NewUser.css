@@ -1,15 +1,17 @@
 .login-user{
+
     box-shadow: rgb(24, 24, 29) 0px 7px 29px 0px;
     width: 245px;
     height: 40px;
  border-radius: 10px;
-
-text-align: center;
-
-
+ text-align: center;
 background-color: #fff;
 opacity: .5;
 transition: .7s;
+display: flex;
+flex-direction: column;
+margin-left: 0;
+margin-right:2rem;
 
 
 
