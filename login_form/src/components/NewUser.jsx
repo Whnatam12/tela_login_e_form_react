@@ -10,7 +10,13 @@ const [confirmpassword,setComfirmPassword] = useState();
 
 const handlesubmit = (e) => {
 e.preventDefault();
-console.log(name,email,password,setComfirmPassword);
+console.log(name,email,password,confirmpassword);
+
+if (password===confirmpassword){
+
+}
+console.log("Erros na comfirmação de senha")
+
 
 
 
@@ -36,6 +42,7 @@ console.log(name,email,password,setComfirmPassword);
 <div className="form-control">
 
 
+
   <label>
     <p>Nome</p>
     <input type="text" placeholder='Digite seu nome' onChange={(e) => setName(e.target.value)} />
@@ -58,7 +65,7 @@ console.log(name,email,password,setComfirmPassword);
 
 
 
-  <input className='btn'  type="submit"value='Enviar'  />
+  <input className='btn'  type="submit"value='Enviar'   />
 
   </div>
 </form>
